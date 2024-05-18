@@ -2900,7 +2900,7 @@
 		(uuid "33588138-fdf9-47b6-80ef-6c0f3f63cf58")
 	)
 	(label "PWM_SIGNAL"
-		(at 64.77 92.71 0)
+		(at 68.58 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
