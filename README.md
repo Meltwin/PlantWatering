@@ -29,5 +29,6 @@ This data will be stored onto the ESP controller internal storage so that it sur
 ## Online resources used
 
 - [ESP-32 Getting Started - Expressif](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/hw-reference/esp32/get-started-devkitc.html)
+- [ESP-32 Pinout - Last Minute Engineers](https://lastminuteengineers.com/esp32-pinout-reference/)
 - [PWN usage - Upesy (FR only)](https://www.upesy.fr/blogs/tutorials/how-to-use-pwm-on-esp32-with-examples)
-- [ADC usage - Last Minute engineers](https://lastminuteengineers.com/esp32-basics-adc/)
+- [ADC usage - Last Minute Engineers](https://lastminuteengineers.com/esp32-basics-adc/)

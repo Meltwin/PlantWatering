@@ -10,9 +10,9 @@
 // Configurations
 // ----------------------------------------------------------------------------
 // General configuration
-#define PUMP_PIN 13 // 5V PWM signal output for controlling the pump
+#define PUMP_PIN 33 // 5V PWM signal output for controlling the pump
 #define PWM_CHANNEL 0
-#define PWM_FREQ 5000
+#define PWM_FREQ 16000
 #define PWM_RESOLUTION 10
 
 // DEBUG configurations
@@ -31,7 +31,7 @@ void setup()
     analogSetWidth(PWM_RESOLUTION);
 }
 
-uint16_t pwm_cmd = 0;
+uint16_t pwm_cmd = 512;
 
 void loop()
 {
@@ -47,5 +47,5 @@ void loop()
     ledcWrite(PWM_CHANNEL, pwm_cmd);
     pwm_cmd = 0; // Reset to 0 for next round
 
-    delay(500);
+    delay(50);
 }
